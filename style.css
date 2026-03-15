@@ -1,0 +1,191 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Poppins;
+}
+
+body{
+background:#2F590C;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* Header */
+.header{
+width:100%;
+background:#2F590C;
+padding:15px;
+display:flex;
+justify-content:center;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1{
+    color:white;
+    padding-top: 20px;
+}
+.logo{
+max-width:100px;
+height:auto;
+display: block;
+
+}
+
+/* Container */
+.container{
+width:100%;
+max-width:400px;
+padding:20px;
+display: flex;
+justify-content: center;
+}
+
+/* Formulário*/
+.container-2{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+padding:10px;
+}
+
+label{
+margin-bottom:5px;
+font-weight:bold;
+}
+
+input{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+/* Texto cadastro */
+.texto-cadastro{
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;;
+}
+
+/* Botao cadastre-se */
+.botao-cadastro{
+color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+
+background-color: none;
+border: none;
+cursor: pointer;
+}
+
+.botao-cadastro:hover {
+     font-weight: bold;
+}
+
+/* Botão Acessar */
+.botao-acessar{ 
+display: flex;
+
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 50px;
+
+background-color: #2F590C;
+color: #ffff;
+}
+
+.botao-acessar:hover {
+    background-color: #ffff;
+    color: #2F590C;
+}
+
+/* ============================================= */
+/* ============== Tela cadastro ================*/
+/* ============================================= */
+
+
+/* Botão Cadastrar */
+.botao-cadastrar{ 
+display: flex;
+
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 50px;
+
+background-color: #2F590C;
+color: #ffff;
+}
+
+.botao-cadastrar:hover {
+background-color: #ffff;
+color: #2F590C;
+}
+
+/* ============================================= */
+/* ============== Tela cadastro ================*/
+/* ============================================= */
+
+/* Botão Sair */
+.botao-sair{ 
+display: flex;
+width: 200px;
+
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 30px;
+
+background-color: #ffffff;
+color: #2F590C;
+}
+
+.botao-sair:hover {
+    background-color: #ffff;
+    color: #2F590C;
+}
+
+/* Resposividade*/
+@media (max-width:600px){
+
+.logo{
+max-width:100px;
+}
+h1{
+font-size:25px;
+}
+.container{
+max-width:90%;
+}
+
+}

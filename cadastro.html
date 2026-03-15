@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assests/imgs/logo.png" alt="logo" class="logo">
+        </div>
+    </header>
+    
+    <h1>Cadastro</h1>
+    <div class="container">
+        <form class="container-2">           
+            <div class="formulario">
+                <div class="form">
+                <label>Nome*</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="form">
+                <label>Email*</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu email">
+                </div>
+
+                <div class="form">
+                <label>Senha*</label>
+                <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+                </div>
+
+                <div class="form">
+                <label>Confirmar Senha*</label>
+                <input type="password" id="confirmar-senha" name="confirmar-senha" required placeholder="Confirme sua senha">
+                </div>
+
+                <div class="form">
+                <label>CEP*</label>
+                <input type="text" id="cep" name="cep" maxlength="9" placeholder="Buscar CEP">
+                </div>
+
+                <div class="form">
+                <label>Rua*</label>
+                <input type="text" id="rua" name="rua" required>
+                </div>
+
+                <div class="form">
+                <label>Bairro*</label>
+                <input type="text" id="bairro" name="bairro">
+                </div>
+
+                <div class="form">
+                <label>Cidade*</label>
+                <input type="text" id="cidade" name="cidade">
+                </div>
+
+                <div class="form">
+                <label>Estado*</label>
+                <input type="text" id="estado" name="estado">
+                </div>
+            </div>
+            <button type="submit" id= "botao-cadastrar" class="botao-cadastrar">Cadastrar</button>
+        </form>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
