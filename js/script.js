@@ -1,33 +1,34 @@
-    /* =======================================================================
-    Navegação entre as telas
-    ======================================================================= */
+/* =======================================================================
+Navegação entre as telas
+======================================================================= */
+
 const botaoCadastro = document.getElementById("botao-cadastro");
 const botaoAcessar = document.getElementById("botao-acessar");
 const botaoCadastrar = document.getElementById("botao-cadastrar");
 const botaoSair = document.getElementById("botao-sair");
 
 if (botaoCadastro) {
-botaoCadastro.addEventListener("click", function(){
-window.location.href = "cadastro.html";
-});
+  botaoCadastro.addEventListener("click", function(){
+    window.location.href = "telas/cadastrar.html";
+  });
 }
 
 if (botaoAcessar) {
-botaoAcessar.addEventListener("click", function(){
-window.location.href = "home.html";
-});
+  botaoAcessar.addEventListener("click", function(){
+    window.location.href = "telas/home.html";
+  });
 }
 
 if (botaoCadastrar) {
-botaoCadastrar.addEventListener("click", function(){
-window.location.href = "index.html";
-});
+  botaoCadastrar.addEventListener("click", function(){
+    window.location.href = "../index.html";
+  });
 }
 
 if (botaoSair) {
-botaoSair.addEventListener("click", function(){
-window.location.href = "index.html";
-});
+  botaoSair.addEventListener("click", function(){
+    window.location.href = "../index.html";
+  });
 }
 
 /* =======================================================================
