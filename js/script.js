@@ -9,7 +9,7 @@ const botaoSair = document.getElementById("botao-sair");
 
 if (botaoCadastro) {
   botaoCadastro.addEventListener("click", function(){
-    window.location.href = "telas/cadastrar.html";
+    window.location.href = "telas/cadastro.html";
   });
 }
 
